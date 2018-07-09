@@ -5,12 +5,12 @@
   <title>Learn Enough JavaScript</title>
   <meta charset="utf-8">
   <script>
-    alert("hello, world!");
-    console.log("This page contains a friendly greeting.");
-    let firstName = "George";
-    let lastName = "Karrys";
-    console.log (`${firstName} ${lastName}`);
-  </script>
+      const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday",
+                             "Thursday", "Friday", "Saturday"];
+      let now = new Date();
+      let dayname = daysOfTheWeek[now.getDay()];
+      alert(`Hello, world! Happy ${dayname}.`);
+    </script>
 
 </head>
 
