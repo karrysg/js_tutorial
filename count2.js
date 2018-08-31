@@ -16,7 +16,7 @@ But bears it out even to the edge of doom.
 let uniques = {};
 let words = sonnet.match(/[\w']+/g);
 
-function getUnique(word){
+function getUnique(word) {
   if (uniques[word]) {
     uniques[word] += 1;
   } else {
